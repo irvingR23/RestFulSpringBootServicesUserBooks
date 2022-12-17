@@ -11,7 +11,7 @@ Spring boot project with JPA and oracle connection
 > * spring.jpa.hibernate.ddl-auto=update
 > * spring.jackson.serialization.fail-on-empty-beans=false
 
-> "{url}" should be replaced to the url and port of the database
-> "{name}" should be replaced with the name of the database that its going to be used
-> "{username}" its the username on the database
-> "{pwd}" Password of the username
+> "{url}" should be replaced to the url and port of the database  
+> "{name}" should be replaced with the name of the database that its going to be used  
+> "{username}" its the username on the database  
+> "{pwd}" Password of the username  
