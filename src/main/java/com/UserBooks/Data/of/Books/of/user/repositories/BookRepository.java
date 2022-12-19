@@ -13,7 +13,7 @@ import org.springframework.data.repository.CrudRepository;
  * @author Irving
  */
 public interface BookRepository extends CrudRepository<Book, Long>{
-    List<Book> findByName(String name);
+    Book findByName(String name);
     
     List<Book> findByAuthor(String author);
     

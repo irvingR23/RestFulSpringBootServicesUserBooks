@@ -13,7 +13,7 @@ import org.springframework.data.repository.CrudRepository;
  * @author Irving
  */
 public interface UserRepository extends CrudRepository<User, Long>{
-    List<User> findByName(String name);
+    User findByName(String name);
     List<User> findByUser(String user);
     List<User> findByAge(int age);
 }

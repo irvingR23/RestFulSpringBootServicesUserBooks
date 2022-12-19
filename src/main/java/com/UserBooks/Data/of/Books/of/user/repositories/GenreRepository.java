@@ -13,5 +13,5 @@ import org.springframework.data.repository.CrudRepository;
  * @author Irving
  */
 public interface GenreRepository extends CrudRepository<Genre, Long>{
-    List<Genre> findByName(String name);
+    Genre findByName(String name);
 }
